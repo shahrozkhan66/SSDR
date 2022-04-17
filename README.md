@@ -26,7 +26,9 @@ Therefore, we propose a shape-supervised dimension reduction (SSDR) approach. To
 
 * [Matlab](https://uk.mathworks.com/products/matlab.html)
 
-The code of SSDR has been tested on the [Matlab](https://uk.mathworks.com/products/matlab.html) 2020a. It should work on any other version of the Matlab. However, SSDR's functions, `KLE.m` and `sthOrderGeometricMoment.m`, use Matlab's [gpuArray](https://uk.mathworks.com/help/parallel-computing/gpuarray.html) and [parfor](https://uk.mathworks.com/help/parallel-computing/parfor.html), respectively, which may not be compatible for your version of the Matlab version. 
+The code of SSDR has been tested on the [Matlab](https://uk.mathworks.com/products/matlab.html) 2020a. It should work on any other version of the Matlab. However, SSDR's functions, `KLE.m` and `sthOrderGeometricMoment.m`, use Matlab's [gpuArray](https://uk.mathworks.com/help/parallel-computing/gpuarray.html) and [parfor](https://uk.mathworks.com/help/parallel-computing/parfor.html), respectively, from [Parallel Computing Toolbox](https://uk.mathworks.com/products/parallel-computing.html) which may not be compatible for your version of the Matlab version. 
+
+If users does not have [Parallel Computing Toolbox](https://uk.mathworks.com/products/parallel-computing.html) then they can set variable `useGPU` to zero in `KLE.m`. Also, change `parfor` in `sthOrderGeometricMoment.m` to `for` at line 48 and 61.
 
 SSDR does not have any external dependencies.
 
