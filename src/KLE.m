@@ -1,19 +1,20 @@
-function [KL_modes, KL_values] = KLE(samples)
+function [KL_modes, KL_values] = KLE(samples, useGPU)
 
 % Karhunen-Loève expansion (KLE): This function impliments KLE/PCA on a
 % given dataset
 % !! Important !! this function uses matlab's "gpuArray" for performance
 % Calling Sequence:
-% 
+%
 %   [KL_modes, KL_values] = KLE(samples)
-%   
+%
 %    INPUT:
-%   
+%
 %      !samples - A n x m matrix, where n are designs and m is the design
-%      !grid in x,y,z coordinates. 
-%   
+%      !grid in x,y,z coordinates.
+%      !useGPU - if "useGPU =1" then KLE use "gpuArray" function of
+%      Parallel Computing Toolbox for performance 
 %    OUTPUT:
-%   
+%
 %      KL_modes - m x m matrix with each column is the i^th eigenvector
 %      KL_values - 1 x m vector of eigenvalues
 %
@@ -35,8 +36,13 @@ N = size(samples,1);
 
 %Covariance Matrix
 covMatrix = (centeredSamples'*centeredSamples)./(N-1);%cov(normSamplesWei);%
-gpuCovMatrix = gpuArray(covMatrix);
-
+if (useGPU ==1)
+    gpuCovMatrix = gpuArray(covMatrix);
+elseif(useGPU == 0)
+    gpuCovMatrix = covMatrix;
+else
+    msgbox("Specify the usage of GPU","GPU usage");
+end
 %EigenDecomposition
 [KL_modes, KL_values] = eig(gpuCovMatrix);
 KL_modes = real(gather(KL_modes));
