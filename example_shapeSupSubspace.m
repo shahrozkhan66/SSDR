@@ -25,7 +25,7 @@ SSV = cat(2, normSamples, normSecondOrderWingMoments);
 
 
 %------ Implimenting the Karhunen-Loève expansion
-[KL_modes, KL_values] = KLE(SSV);
+[KL_modes, KL_values] = KLE(SSV, 0);
 
 
 %------ calculating the variance retained as a cumulative sum of KL_values

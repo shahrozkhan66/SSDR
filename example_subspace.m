@@ -14,7 +14,7 @@ normSamples = samples./sqrt(sum(var(samples)));
 
 
 %------ Implimenting the Karhunen-Loève expansion
-[KL_modes, KL_values] = KLE(normSamples);
+[KL_modes, KL_values] = KLE(normSamples, 0);
 
 
 %------ calculating the variance retained as a cumulative sum of KL_values
