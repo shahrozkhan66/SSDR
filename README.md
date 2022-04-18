@@ -42,7 +42,7 @@ Construction of SSV involves a design grid and geometric moments of *s*th-order.
 
 <img src="assets/geometricMoment.svg?raw=true" width="400">
 
-where *s=p+q+r*. Moreover, all the moments of a certain can be defined as follows:
+where *s=p+q+r*. Moreover, all the moments of a certain order can be defined as follows:
 
 <img src="assets/geometricMomentVector.svg?raw=true" width="600">
 
