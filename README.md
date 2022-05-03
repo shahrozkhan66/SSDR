@@ -12,7 +12,7 @@
 
 [Shahroz Khan](https://www.shahrozkhan.info/)\*, [Panagiotis Kaklis](https://www.strath.ac.uk/staff/kaklispanagiotisprof/)\, [Andrea Serani](http://www.inm.cnr.it/people/andrea-serani/)\, [Matteo Diez](http://www.inm.cnr.it/people/matteo-diez/)\, [Konstantinos Kostas](https://nu.edu.kz/faculty/konstantinos-kostas)
 
-[[Paper]](-) [[Presentation]](-) [[Video]](-)
+[[Paper]](https://drive.google.com/file/d/1Wb_q4OuUw6FdgxcyFl-2frag_ZT67c-C/view?usp=sharing) [[Presentation]](-) [[Video]](-)
 
 
 ## Overview of the work
