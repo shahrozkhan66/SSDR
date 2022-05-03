@@ -8,7 +8,7 @@
 
 ## Shape-supervised dimension reduction: Extracting geometry and physics associated features with geometric moments
 
-***Shape reparameterisation with latent variables for shape optimisation***
+***Shape reparameterisation with geometric and physics-informed latent variables for shape optimisation***
 
 [Shahroz Khan](https://www.shahrozkhan.info/)\*, [Panagiotis Kaklis](https://www.strath.ac.uk/staff/kaklispanagiotisprof/)\, [Andrea Serani](http://www.inm.cnr.it/people/andrea-serani/)\, [Matteo Diez](http://www.inm.cnr.it/people/matteo-diez/)\, [Konstantinos Kostas](https://nu.edu.kz/faculty/konstantinos-kostas)
 
