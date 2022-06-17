@@ -12,7 +12,7 @@
 
 [Shahroz Khan](https://www.shahrozkhan.info/)\*, [Panagiotis Kaklis](https://www.strath.ac.uk/staff/kaklispanagiotisprof/)\, [Andrea Serani](http://www.inm.cnr.it/people/andrea-serani/)\, [Matteo Diez](http://www.inm.cnr.it/people/matteo-diez/)\, [Konstantinos Kostas](https://nu.edu.kz/faculty/konstantinos-kostas)
 
-[[Paper]](https://drive.google.com/file/d/1Wb_q4OuUw6FdgxcyFl-2frag_ZT67c-C/view?usp=sharing) [[Presentation]](-) [[Video]](-)
+[[Paper]](https://doi.org/10.1016/j.cad.2022.103327) [[Pre-Prints]](https://drive.google.com/file/d/1Wb_q4OuUw6FdgxcyFl-2frag_ZT67c-C/view?usp=sharing) [[Presentation]](https://docs.google.com/presentation/d/1VZGk-wCTi2jm1HrS2QBpgnTwuOAuyBZG/edit?usp=sharing&ouid=104216096169579101925&rtpof=true&sd=true) [[Video]](https://youtu.be/z7UMzuWMoSA)
 
 
 ## Overview of the work
